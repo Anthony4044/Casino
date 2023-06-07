@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="column1" layoutX="45.0" layoutY="38.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="100.0" style="-fx-border-color: Black; -fx-background-color: Tan;">
+               <children>
+                  <ImageView fx:id="C1R1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C1R2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C1R3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+               </children>
+            </VBox>
+            <VBox fx:id="column2" layoutX="145.0" layoutY="38.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="100.0" style="-fx-border-color: Black; -fx-background-color: Tan;">
+               <children>
+                  <ImageView fx:id="C2R1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C2R2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C2R3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+               </children>
+            </VBox>
+            <VBox fx:id="column3" layoutX="245.0" layoutY="38.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="100.0" style="-fx-border-color: Black; -fx-background-color: Tan;">
+               <children>
+                  <ImageView fx:id="C3R1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C3R2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C3R3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+               </children>
+            </VBox>
+            <VBox fx:id="column4" layoutX="445.0" layoutY="38.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="100.0" style="-fx-border-color: Black; -fx-background-color: Tan;">
+               <children>
+                  <ImageView fx:id="C5R1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C5R2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C5R3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+               </children>
+            </VBox>
+            <VBox fx:id="column5" layoutX="345.0" layoutY="38.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="100.0" style="-fx-border-color: Black; -fx-background-color: Tan;">
+               <children>
+                  <ImageView fx:id="C4R1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C4R2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+                  <ImageView fx:id="C4R3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <Button fx:id="spin" mnemonicParsing="false" onAction="#handleSpinSlot" text="spin" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

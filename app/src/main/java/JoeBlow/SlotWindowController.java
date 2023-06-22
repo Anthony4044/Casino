@@ -33,6 +33,7 @@ public class SlotWindowController {
     @FXML
     public void handleSpinSlot() {
         generateSymbolsIntoSlot();
+        checkLineConnection();
     }
 
     public void generateSymbolProbabilityArray() {
@@ -96,7 +97,7 @@ public class SlotWindowController {
                     d.setImage(new Image("/images/Dynamite1.png"));
                 }
                 if (d.getNumberOfDyanmite() == 2) {
-                    d.setImage(new Image("/images/Dynamite1.png"));
+                    d.setImage(new Image("/images/Dynamite2.png"));
                 }
                 if (d.getNumberOfDyanmite() == 3) {
                     d.setImage(new Image("/images/Dynamite3.png"));
@@ -134,5 +135,11 @@ public class SlotWindowController {
     public int randomInt111() {
         Random random = new Random();
         return random.nextInt(112);
+    }
+    
+    public void checkLineConnection(){
+        if(slot[0][1].type.equals(slot[1][1]) && slot[0][1].type.equals(slot[2][1])){
+            System.out.println("hit");
+        }
     }
 }

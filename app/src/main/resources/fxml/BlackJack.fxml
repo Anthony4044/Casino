@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="IVtable" fitHeight="588.0" fitWidth="1000.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bjTable.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pc1" fitHeight="88.0" fitWidth="66.0" layoutX="460.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pc2" fitHeight="88.0" fitWidth="66.0" layoutX="490.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pc3" fitHeight="88.0" fitWidth="66.0" layoutX="520.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pc4" fitHeight="88.0" fitWidth="66.0" layoutX="550.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pc5" fitHeight="88.0" fitWidth="66.0" layoutX="560.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dc1" fitHeight="88.0" fitWidth="66.0" layoutX="444.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dc2" fitHeight="88.0" fitWidth="66.0" layoutX="484.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnDeal" layoutX="480.0" layoutY="513.0" mnemonicParsing="false" onAction="#onDeal" text="Deal" />
+      <ImageView fx:id="IVHit" fitHeight="49.0" fitWidth="153.0" layoutX="8.0" layoutY="474.0" onMouseClicked="#handleHit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bjHit.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="IVStand" fitHeight="49.0" fitWidth="159.0" layoutX="6.0" layoutY="526.0" onMouseClicked="#handleStand" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bjStand.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
